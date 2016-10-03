@@ -68,14 +68,14 @@ Supplier supplier;
 		Product product=new Product();*/
 		
 		
-		product.setPrt_id("PRO_02");
-		product.setPrt_name("lenovo");
-		product.setPrt_description("this is mobile");
-		product.setPrt_price("10000"); 
-		product.setCatey_id("CAT_01");
-		product.setSuppr_id("SUP_01");
-		 //productDAO.save(product);
-		 assertEquals(productDAO.save(product),true);
+		product.setPrt_id("PRO_04");
+		product.setPrt_name(" Router");
+		product.setPrt_description("full WI_FI");
+		product.setPrt_price("2000"); 
+		product.setCatey_id("CAT_03");
+		product.setSuppr_id("SUP_03");
+/*		 productDAO.save(product);
+*/		 assertEquals(productDAO.save(product),true);
 		/*(category.getProducts()).add(product);
 		
 		
