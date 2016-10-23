@@ -46,9 +46,9 @@ public class TestCaseCategory {
 	public void categoryAddTestCase()
 	{
 	
-			category.setCaty_id("CAT_01");
+			category.setCaty_id("CAT_06");
 			category.setCaty_name("mobiles");
-			category.setCaty_description("apple");
+			category.setCaty_description("sony");
 		assertEquals(categoryDAO.save(category), true);
 	}
 	

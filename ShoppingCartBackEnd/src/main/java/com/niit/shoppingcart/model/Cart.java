@@ -16,10 +16,11 @@ public class Cart implements Serializable{
 	@Id
 	private String cartId;
 	
-	private String customerId;
+	private String name;
 	private double grandTotal;
-	private int noOfProducts;
-
+	private int quantity;
+    private String price; 
+	
 	public String getCartId() {
 		return cartId;
 	}
@@ -28,14 +29,13 @@ public class Cart implements Serializable{
 		this.cartId = cartId;
 	}
 
-	public String getCustomerId() {
-		return customerId;
+	public String getName() {
+		return name;
 	}
 
-	public void setCustomerId(String customerId) {
-		this.customerId = customerId;
+	public void setName(String name) {
+		this.name = name;
 	}
-
 
 	public double getGrandTotal() {
 		return grandTotal;
@@ -45,12 +45,20 @@ public class Cart implements Serializable{
 		this.grandTotal = grandTotal;
 	}
 
-	public int getNoOfProducts() {
-		return noOfProducts;
+	public int getQuantity() {
+		return quantity;
 	}
 
-	public void setNoOfProducts(int noOfProducts) {
-		this.noOfProducts = noOfProducts;
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+	public String getPrice() {
+		return price;
+	}
+
+	public void setPrice(String price) {
+		this.price = price;
 	}
 
 	public Cart() {

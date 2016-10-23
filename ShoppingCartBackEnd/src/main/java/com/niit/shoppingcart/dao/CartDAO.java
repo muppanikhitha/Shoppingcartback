@@ -12,7 +12,7 @@ public interface CartDAO {
 	
 	void delete(String cartId);
 	
-	Cart getCartByCustomerId(String customerId);
+	Cart getCartByCustomerId(String name);
 	
 	List<Cart> listCart();
 	
